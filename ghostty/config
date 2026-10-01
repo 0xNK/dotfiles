@@ -1,0 +1,24 @@
+theme = Night Owl
+shell-integration-features = sudo
+
+keybind = alt+right=goto_split:next
+keybind = alt+left=goto_split:previous
+keybind = alt+up=goto_split:up
+keybind = alt+down=goto_split:down
+keybind = ctrl+w=close_window
+keybind = shift+alt+up=resize_split:up,10
+keybind = shift+alt+down=resize_split:down,10
+keybind = shift+alt+left=resize_split:left,10
+keybind = shift+alt+right=resize_split:right,10
+cursor-style = block
+cursor-color = #FFD60A
+cursor-text  = #A6E3A1
+cursor-style-blink = true
+
+keybind = ctrl+shift+r=activate_key_table:resize
+keybind = resize/arrow_up=resize_split:up,10
+keybind = resize/arrow_down=resize_split:down,10
+keybind = resize/arrow_left=resize_split:left,10
+keybind = resize/arrow_right=resize_split:right,10
+keybind = resize/escape=deactivate_key_table
+keybind = resize/catch_all=ignore
